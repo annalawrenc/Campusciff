@@ -1,27 +1,30 @@
 # Campusciff
 
-## **Descripción del ejercicio 1:**
+## **Ejercicio 1:**
 
-+ Crear un repositorio en vuestro GitHub
+
++ *Crear un repositorio en vuestro GitHub*
 
 El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository
 ![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](https://github.com/annalawrenc/Campusciff/blob/master/screens/NewRepository.jpg)
 
 *No he creado ninguno ahora porque ya tengo uno llamado Campusciff que hice en clase*
 
-El repositorio creado se va así:
+El repositorio creado se ve así:
 ![El repositorio:](https://github.com/annalawrenc/Campusciff/blob/master/screens/RepositorioCampusciff.jpg)
 
-+ Clonar repositorio en local
+
+
++ *Clonar repositorio en local*
 
 Ya tengo un repositorio de la clase en local, entonces creo otra carpeta para clonar y me situo en ella.
 
-cd Ejercicio1-2
+	cd Ejercicio1-2
 
 Después copio la direccion del repositorio del GitHub para poder clonar usando el protocolo SSH
 ![direccion del repositorio] (https://github.com/annalawrenc/Campusciff/blob/master/screens/CopiarDireccionSSHgit.jpg?)
 
-Para clonar uso el comando:
+Para clonar uso el comando git clone con la dirección:
 
 	git clone git@github.com:annalawrenc/Campusciff.git
 
@@ -41,7 +44,9 @@ Una vez introducida la contraseña el repositorio se acaba de clonar:
 En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio
 ![repositorio clonado](https://github.com/annalawrenc/Campusciff/blob/master/screens/RepositorioClonado.jpg)
 
-+ Readme
+
+
++ *Readme*
 
 Añado al fichero readme.md los pasos y lo añado junto con las capturas de pantalla al area de staging
 
@@ -64,7 +69,9 @@ Veo en git status que los ficheros están preparados para commit.
         new file:   screens/RepositorioClonado.jpg
 
 
-+ Commit inicial
+
+
++ *Commit inicial*
 
 Hago el commit inicial:
 
