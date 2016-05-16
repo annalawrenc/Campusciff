@@ -97,6 +97,7 @@ Tengo que introducir contraseña:
 	Enter passphrase for key '/c/Users/ania/.ssh/id_rsa':
 
 Una vez introducida la contraseña prospera el push.
+
 	Counting objects: 12, done.
 	Delta compression using up to 8 threads.
 	Compressing objects: 100% (12/12), done.
@@ -161,13 +162,13 @@ Subo los cambios a repositorio remoto:
 
 El doble factor de seguridad se pone de la siguiente forma:
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut1.jpg)
+![Paso 1](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut1.jpg)
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut2.jpg)
+![Paso 2](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut2.jpg)
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut3.jpg)
+![Paso 3](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut3.jpg)
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut4.jpg)
+![Paso 4](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut4.jpg)
 
 *No lo finalizo porque no quiero proporcionar mi múmero de telefono.*
 
@@ -175,23 +176,23 @@ El doble factor de seguridad se pone de la siguiente forma:
 
 Ya tengo clave pública:
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/publickey.jpg)
+![Key](https://github.com/annalawrenc/Campusciff/blob/master/screens/publickey.jpg)
 
 + **Uso social de GitHub** 
 
 
 + sigo a mis compañeros.
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/following.jpg)
+![Seguimiento](https://github.com/annalawrenc/Campusciff/blob/master/screens/following.jpg)
 
 + Pongo estrellas a los compañeros.
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/stars.jpg)
+![Añado estrellas](https://github.com/annalawrenc/Campusciff/blob/master/screens/stars.jpg)
 
 
 + Busco repositorios para seguir.
 
-![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/searchreposit.jpg)
+![Busco repositorios](https://github.com/annalawrenc/Campusciff/blob/master/screens/searchreposit.jpg)
 
 
 + **Compañeros de mi clase**
@@ -202,3 +203,12 @@ Ya tengo clave pública:
 |Asier |<https://github.com/asiermatas>    | 
 |Juan  |<https://github.com/juangarciaciff>|
 |Mark  |<https://github.com/Mark-Wellings> |
+
+
++ **Nuevo Colaborador**
+
+Añado como colaborador al profe: asanzdiego.
+
+![Busco repositorios](https://github.com/annalawrenc/Campusciff/blob/master/screens/colaborador.jpg)
+
+![Busco repositorios](https://github.com/annalawrenc/Campusciff/blob/master/screens/colaboradoradolfo.jpg)
