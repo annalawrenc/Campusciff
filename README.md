@@ -4,11 +4,13 @@
 
 + Crear un repositorio en vuestro GitHub
 
+El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository
 ![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](https://github.com/annalawrenc/Campusciff/blob/master/screens/NewRepository.jpg)
 
 *No he creado ninguno ahora porque ya tengo uno llamado Campusciff que hice en clase*
 
-![El repositorio creado se va así:](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioCampusciff.jpg)
+El repositorio creado se va así:
+![El repositorio:](https://github.com/annalawrenc/Campusciff/blob/master/screens/RepositorioCampusciff.jpg)
 
 + Clonar repositorio en local
 
@@ -16,7 +18,8 @@ Ya tengo un repositorio de la clase en local, entonces creo otra carpeta para cl
 
 cd Ejercicio1-2
 
-![Después copio la direccion del repositorio del GitHub para poder clonar usando el protocolo SSH] (D:\GIT\Ejercicio1-2\Campusciff\screens\CopiarDireccionSSHgit.jpg)
+Después copio la direccion del repositorio del GitHub para poder clonar usando el protocolo SSH
+![direccion del repositorio] (https://github.com/annalawrenc/Campusciff/blob/master/screens/CopiarDireccionSSHgit.jpg?)
 
 Para clonar uso el comando:
 
@@ -35,7 +38,8 @@ Una vez introducida la contraseña el repositorio se acaba de clonar:
 	Receiving objects: 100% (6/6), done.
 	Checking connectivity... done.
 
-![En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioClonado.jpg)
+En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio
+![repositorio clonado](https://github.com/annalawrenc/Campusciff/blob/master/screens/RepositorioClonado.jpg)
 
 + Readme
 
