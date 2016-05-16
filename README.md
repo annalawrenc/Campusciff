@@ -4,7 +4,7 @@
 
 + Crear un repositorio en vuestro GitHub
 
-! [El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository] (Campusciff\screens\NewRepository.jpg)
+![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository] (Campusciff\screens\NewRepository.jpg)
 
 *No he creado ninguno ahora porque ya tengo uno llamado Campusciff que hice en clase*
 
@@ -16,7 +16,7 @@ Ya tengo un repositorio de la clase en local, entonces creo otra carpeta para cl
 
 cd Ejercicio1-2
 
-! [Después copio la direccion del repositorio del GitHub para poder clonar usando el protocolo SSH] (D:\GIT\Ejercicio1-2\Campusciff\screens\CopiarDireccionSSHgit.jpg)
+![Después copio la direccion del repositorio del GitHub para poder clonar usando el protocolo SSH] (D:\GIT\Ejercicio1-2\Campusciff\screens\CopiarDireccionSSHgit.jpg)
 
 Para clonar uso el comando:
 
