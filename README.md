@@ -4,7 +4,7 @@
 
 + Crear un repositorio en vuestro GitHub
 
-[El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](D:\GIT\Ejercicio1-2\Campusciff\screens\NewRepository.jpg)
+[El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](Campusciff\screens\NewRepository.jpg)
 
 *No he creado ninguno ahora porque ya tengo uno llamado Campusciff que hice en clase*
 
@@ -20,37 +20,37 @@ cd Ejercicio1-2
 
 Para clonar uso el comando:
 
-git clone git@github.com:annalawrenc/Campusciff.git
+	git clone git@github.com:annalawrenc/Campusciff.git
 
-Sale el mensaje de estar clonando y Git pide mi contraseña:
+	Sale el mensaje de estar clonando y Git pide mi contraseña:
 
-Cloning into 'Campusciff'...
-Enter passphrase for key '/c/Users/ania/.ssh/id_rsa':
+	Cloning into 'Campusciff'...
+	Enter passphrase for key '/c/Users/ania/.ssh/id_rsa':
 
-Una vez introducida la contraseña el repositorio se acaba de clonar:
+	Una vez introducida la contraseña el repositorio se acaba de clonar:
 
-remote: Counting objects: 6, done.
-remote: Compressing objects: 100% (3/3), done.
-remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
-Receiving objects: 100% (6/6), done.
-Checking connectivity... done.
+	remote: Counting objects: 6, done.
+	remote: Compressing objects: 100% (3/3), done.
+	remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+	Receiving objects: 100% (6/6), done.
+	Checking connectivity... done.
 
-[En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioClonado.jpg)
+	[En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioClonado.jpg)
 
 +Readme
 
 Añado al fichero readme.md los pasos y lo añado junto con las capturas de pantalla al area de staging
 
-cd Campusciff
-git add -A
+	cd Campusciff
+	git add -A
 
 Veo en git status que los ficheros están preparados para commit.
 
-$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
+	git status
+	On branch master
+	Your branch is up-to-date with 'origin/master'.
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
 
         modified:   README.md
         new file:   screens/0000001_stargard-zentrum_980.jpg
