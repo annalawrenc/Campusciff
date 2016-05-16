@@ -3,7 +3,7 @@
 ## **Ejercicio 1:**
 
 
-+ *Crear un repositorio en vuestro GitHub*
++ **Crear un repositorio en vuestro GitHub**
 
 El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository
 ![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](https://github.com/annalawrenc/Campusciff/blob/master/screens/NewRepository.jpg)
@@ -15,7 +15,7 @@ El repositorio creado se ve así:
 
 
 
-+ *Clonar repositorio en local*
++ **Clonar repositorio en local**
 
 Ya tengo un repositorio de la clase en local, entonces creo otra carpeta para clonar y me situo en ella.
 
@@ -46,7 +46,7 @@ En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio
 
 
 
-+ *Readme*
++ **Readme**
 
 Añado al fichero readme.md los pasos y lo añado junto con las capturas de pantalla al area de staging
 
@@ -71,7 +71,7 @@ Veo en git status que los ficheros están preparados para commit.
 
 
 
-+ *Commit inicial*
++ **Commit inicial**
 
 Hago el commit inicial:
 
@@ -86,4 +86,56 @@ Hago el commit inicial:
  	create mode 100644 screens/RepositorioCampusciff.jpg
  	create mode 100644 screens/RepositorioClonado.jpg
 
++ **Push inicial**
+
+Subo el repositorio local a repositorio remoto con el comando git push + dirección:
+
+	git push  git@github.com:annalawrenc/Campusciff.git
+	
+Tengo que introducir contraseña:
+	
+	Enter passphrase for key '/c/Users/ania/.ssh/id_rsa':
+
+Una vez introducida la contraseña prospera el push.
+	Counting objects: 12, done.
+	Delta compression using up to 8 threads.
+	Compressing objects: 100% (12/12), done.
+	Writing objects: 100% (12/12), 603.16 KiB | 0 bytes/s, done.
+	Total 12 (delta 1), reused 0 (delta 0)
+	To git@github.com:annalawrenc/Campusciff.git
+	   cb00b5d..f85bc4e  master -> master
+
+Ahora el repositorio remoto contiene los elementos que he subido de local:
+
+![repositorio push inicial](https://github.com/annalawrenc/Campusciff/blob/master/screens/RepositorioPushIni.jpg)
+
++ **Ignorar archivos**
+
+Creo un archivo de texto privado.txt y una carpeta privada.
+	mkdir privada
+	echo "privado" > privado.txt
+
+![repositorio push inicial](https://github.com/annalawrenc/Campusciff/blob/master/screens/privado.jpg)
+
+Creo un archivo .gitignore y añado a la lista privado.txt y carpeta privada.
+
+	echo "privado.txt" > .gitignore
+
+![repositorio push inicial](https://github.com/annalawrenc/Campusciff/blob/master/screens/gitignore.jpg)
+
+A partir de ahora la carpeta privada y el archivo privado.txt van a ser ignorados por Git.
+
+
++ **Añadir fichero 1.txt**
+
+Creo un fichero 1.txt y lo añado a repositorio local.
+
+	Changes to be committed:
+  	(use "git reset HEAD <file>..." to unstage)
+
+        new file:   1.txt
+
+git commit -m "1.txt sin privados"
+
+A repositorio local sube el fichero 1.txt (y los screenshots), pero no los ficheros privados.
 
