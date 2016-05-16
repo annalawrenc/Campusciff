@@ -4,7 +4,7 @@
 
 + Crear un repositorio en vuestro GitHub
 
-![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository] (https://github.com/annalawrenc/Campusciff/blob/master/screens/NewRepository.jpg)
+![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](https://github.com/annalawrenc/Campusciff/blob/master/screens/NewRepository.jpg)
 
 *No he creado ninguno ahora porque ya tengo uno llamado Campusciff que hice en clase*
 
