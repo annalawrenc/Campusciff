@@ -129,14 +129,76 @@ A partir de ahora la carpeta privada y el archivo privado.txt van a ser ignorado
 
 + **Añadir fichero 1.txt**
 
-Creo un fichero 1.txt y lo añado a repositorio local.
+Creo un fichero 1.txt y lo añado primero a staging y despues a repositorio local.
 
-	Changes to be committed:
-  	(use "git reset HEAD <file>..." to unstage)
+	git add 1.txt
 
-        new file:   1.txt
+	git commit -m "commit 1.txt"
 
-git commit -m "1.txt sin privados"
 
-A repositorio local sube el fichero 1.txt (y los screenshots), pero no los ficheros privados.
 
++ **Crear el tag v0.1**
+
+Añado una etiqueta v0.1 al último commit
+	git tag v0.1
+
+
+
++ **Subir el tag v0.1**
+
+Subo los cambios a repositorio remoto:
+
+	git push git@github.com:annalawrenc/Campusciff.git
+
+
++ **Cuenta GitHub**
+
++ Subo una foto
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/PerfilGit.jpg)
+
++ Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+
+El doble factor de seguridad se pone de la siguiente forma:
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut1.jpg)
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut2.jpg)
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut3.jpg)
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/two-factor-aut4.jpg)
+
+*No lo finalizo porque no quiero proporcionar mi múmero de telefono.*
+
++ Clave pública
+
+Ya tengo clave pública:
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/publickey.jpg)
+
++ **Uso social de GitHub** 
+
+
++ sigo a mis compañeros.
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/following.jpg)
+
++ Pongo estrellas a los compañeros.
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/stars.jpg)
+
+
++ Busco repositorios para seguir.
+
+![Foto](https://github.com/annalawrenc/Campusciff/blob/master/screens/searchreposit.jpg)
+
+
++ **Compañeros de mi clase**
+
+
+|NOMBRE|GITHUB                             |
+|------|----------------------------------:|
+|Asier |<https://github.com/asiermatas>    | 
+|Juan  |<https://github.com/juangarciaciff>|
+|Mark  |<https://github.com/Mark-Wellings> |
