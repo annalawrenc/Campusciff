@@ -112,6 +112,7 @@ Ahora el repositorio remoto contiene los elementos que he subido de local:
 + **Ignorar archivos**
 
 Creo un archivo de texto privado.txt y una carpeta privada.
+	
 	mkdir privada
 	echo "privado" > privado.txt
 
