@@ -37,3 +37,40 @@ Checking connectivity... done.
 
 [En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioClonado.jpg)
 
++Readme
+
+Añado al fichero readme.md los pasos y lo añado junto con las capturas de pantalla al area de staging
+
+cd Campusciff
+git add -A
+
+Veo en git status que los ficheros están preparados para commit.
+
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+        new file:   screens/0000001_stargard-zentrum_980.jpg
+        new file:   screens/CopiarDireccionSSHgit.jpg
+        new file:   screens/NewRepository.jpg
+        new file:   screens/RepositorioCampusciff.jpg
+        new file:   screens/RepositorioClonado.jpg
+
+
++ Commit inicial
+
+git commit -m "commit inicial"
+
+[master e0eaff9] commit inicial
+ 6 files changed, 39 insertions(+), 1 deletion(-)
+ rewrite README.md (100%)
+ create mode 100644 screens/0000001_stargard-zentrum_980.jpg
+ create mode 100644 screens/CopiarDireccionSSHgit.jpg
+ create mode 100644 screens/NewRepository.jpg
+ create mode 100644 screens/RepositorioCampusciff.jpg
+ create mode 100644 screens/RepositorioClonado.jpg
+
+
