@@ -141,6 +141,7 @@ Creo un fichero 1.txt y lo añado primero a staging y despues a repositorio local
 + **Crear el tag v0.1**
 
 Añado una etiqueta v0.1 al último commit
+
 	git tag v0.1
 
 
