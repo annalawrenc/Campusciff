@@ -4,11 +4,11 @@
 
 + Crear un repositorio en vuestro GitHub
 
-[El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](Campusciff\screens\NewRepository.jpg)
+![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](Campusciff\screens\NewRepository.jpg)
 
 *No he creado ninguno ahora porque ya tengo uno llamado Campusciff que hice en clase*
 
-[El repositorio creado se va así:](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioCampusciff.jpg)
+![El repositorio creado se va así:](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioCampusciff.jpg)
 
 + Clonar repositorio en local
 
@@ -16,18 +16,18 @@ Ya tengo un repositorio de la clase en local, entonces creo otra carpeta para cl
 
 cd Ejercicio1-2
 
-[Después copio la direccion del repositorio del GitHub para poder clonar usando el protocolo SSH](D:\GIT\Ejercicio1-2\Campusciff\screens\CopiarDireccionSSHgit.jpg)
+![Después copio la direccion del repositorio del GitHub para poder clonar usando el protocolo SSH](D:\GIT\Ejercicio1-2\Campusciff\screens\CopiarDireccionSSHgit.jpg)
 
 Para clonar uso el comando:
 
 	git clone git@github.com:annalawrenc/Campusciff.git
 
-	Sale el mensaje de estar clonando y Git pide mi contraseña:
+Sale el mensaje de estar clonando y Git pide mi contraseña:
 
 	Cloning into 'Campusciff'...
 	Enter passphrase for key '/c/Users/ania/.ssh/id_rsa':
 
-	Una vez introducida la contraseña el repositorio se acaba de clonar:
+Una vez introducida la contraseña el repositorio se acaba de clonar:
 
 	remote: Counting objects: 6, done.
 	remote: Compressing objects: 100% (3/3), done.
@@ -35,9 +35,9 @@ Para clonar uso el comando:
 	Receiving objects: 100% (6/6), done.
 	Checking connectivity... done.
 
-	[En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioClonado.jpg)
+![En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio](D:\GIT\Ejercicio1-2\Campusciff\screens\RepositorioClonado.jpg)
 
-+Readme
++ Readme
 
 Añado al fichero readme.md los pasos y lo añado junto con las capturas de pantalla al area de staging
 
@@ -62,15 +62,15 @@ Veo en git status que los ficheros están preparados para commit.
 
 + Commit inicial
 
-git commit -m "commit inicial"
+	git commit -m "commit inicial"
 
-[master e0eaff9] commit inicial
- 6 files changed, 39 insertions(+), 1 deletion(-)
- rewrite README.md (100%)
- create mode 100644 screens/0000001_stargard-zentrum_980.jpg
- create mode 100644 screens/CopiarDireccionSSHgit.jpg
- create mode 100644 screens/NewRepository.jpg
- create mode 100644 screens/RepositorioCampusciff.jpg
- create mode 100644 screens/RepositorioClonado.jpg
+	[master e0eaff9] commit inicial
+	 6 files changed, 39 insertions(+), 1 deletion(-)
+ 	rewrite README.md (100%)
+ 	create mode 100644 screens/0000001_stargard-zentrum_980.jpg
+ 	create mode 100644 screens/CopiarDireccionSSHgit.jpg
+ 	create mode 100644 screens/NewRepository.jpg
+ 	create mode 100644 screens/RepositorioCampusciff.jpg
+ 	create mode 100644 screens/RepositorioClonado.jpg
 
 
