@@ -276,4 +276,9 @@ Me posiciono en la master
 
 	git checkout master
 
+Hago un merge de la rama v0.2 en la rama master.
+
+	git merge v0.2
+
+
 
