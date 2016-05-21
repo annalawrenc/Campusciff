@@ -375,4 +375,25 @@ Veo en GitHub que ya no tengo la rama v0.2.
 + **Lista de commits**
 
 Hago lista de commits con 
+
 	git log
+
++ **Crear una organización**
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/OrganizacionCreada.jpg)
+
++ **Crear equipos**
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/Equipos.jpg)
+
+Invito personas a los equipos de colaboradores y administradores.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/EquipoAdministradores.jpg)
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/InvitacionesColaboradores.jpg)
+
++ **Crear intex.html**
+
+
+
+
