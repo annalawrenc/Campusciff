@@ -372,3 +372,7 @@ Veo en GitHub que ya no tengo la rama v0.2.
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/RamaBorrada.jpg)
 
++ **Lista de commits**
+
+Hago lista de commits con 
+	git log
