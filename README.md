@@ -252,7 +252,7 @@ Veo que en la rama master no está el fichero 2.txt
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerRamaMaster.jpg)
 
-En la rama master si está el fichero 2.txt
+En la rama V0.2 si está el fichero 2.txt
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerRamaV2.jpg)
  
