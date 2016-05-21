@@ -256,3 +256,24 @@ En la rama V0.2 si está el fichero 2.txt
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerRamaV2.jpg)
  
+
+
++ **Crear rama remota v0.2**
+
+Subo los cambios (inserción del fichero 2.txt) a repositorio remoto, creando rama v0.2.
+
+	git checkout v0.2
+	git push git@github.com:annalawrenc/Campusciff.git v0.2
+
+Veo que tengo una rama nueva v0.2:
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerRama2GitHub.jpg)
+
+
++ **Merge directo**
+
+Me posiciono en la master
+
+	git checkout master
+
+
