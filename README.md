@@ -250,9 +250,9 @@ Lo añado a staging y hago commit en rama v0.2.
 
 Veo que en la rama master no está el fichero 2.txt
 
-![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VarRamaMaster.jpg)
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerRamaMaster.jpg)
 
 En la rama master si está el fichero 2.txt
 
-![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VarV2.jpg)
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerRamaV2.jpg)
  
