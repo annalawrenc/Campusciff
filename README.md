@@ -298,3 +298,49 @@ Veo que se han fucionado las ramas y ahora tengo el fichero 2.txt también en la 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/MasterAfterMerge.jpg)
 
 + **Merge con conflicto**
+
+Me posisiono en la rama master y pongo "Hola" en el fichero 1.txt.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/1txtHola.jpg)
+
+Después hago un commit de los cambios.
+	git add -A
+	git commit -m "commit hola"
+
+Me posisiono en la rama v0.2 y pongo "Adios" en el fichero 1.txt en la misma línea para crear conflicto.
+
+	git checkout v0.2
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/1txtAdios.jpg)
+
+Después vuelvo a posicionarme en la rama master y hago merge.
+
+	git checkout master
+	git merge v0.2
+
+Aparece un mesaje de conflicto:
+
+	Auto-merging 1.txt
+	CONFLICT (content): Merge conflict in 1.txt
+	Automatic merge failed; fix conflicts and then commit the result.
+
+
++ **Listado de ramas**
+
+Saco una lista de ramas fusionadas y sin fusionar
+
+	git branch --merged
+	* master
+
+	git branch --no-merged
+  	v0.2
+
+*La rama master habia fusionado en clase con "rama" pero ahora no está fusionada con v0.2*
+
++ **Arreglar conflicto**
+
+
+Abro el fichero 1.txt, soluciono el conflicto a mano y guardo fichero.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/ConflictoHolaAdios.jpg)
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/SinConflictoHolaAdios.jpg)
