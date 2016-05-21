@@ -360,4 +360,15 @@ Creo un tag v0.2.
 	git tag v0.2
 
 Después borro la rama v0.2.
+	
+	git push git@github.com:annalawrenc/Campusciff.git --delete 
+
+Aparece mensaje:
+
+	To git@github.com:annalawrenc/Campusciff.git
+	 - [deleted]         v0.2
+
+Veo en GitHub que ya no tengo la rama v0.2.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/RamaBorrada.jpg)
 
