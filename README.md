@@ -280,5 +280,21 @@ Hago un merge de la rama v0.2 en la rama master.
 
 	git merge v0.2
 
+Aparece confirmación:
 
+	Merge made by the 'recursive' strategy.
+ 	2.txt | 0
+ 	1 file changed, 0 insertions(+), 0 deletions(-)
+ 	create mode 100644 2.txt
 
+Ejecuto además:
+
+	git add -A
+	git commit -m "merger sin conflicto"
+	git push git@github.com:annalawrenc/Campusciff.git
+
+Veo que se han fucionado las ramas y ahora tengo el fichero 2.txt también en la rama master.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/MasterAfterMerge.jpg)
+
++ **Merge con conflicto**
