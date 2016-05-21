@@ -344,3 +344,19 @@ Abro el fichero 1.txt, soluciono el conflicto a mano y guardo fichero.
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/ConflictoHolaAdios.jpg)
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/SinConflictoHolaAdios.jpg)
+
+	git add -A
+	git commit -m "resuelto conflicto"
+
+Aparece mensaje:
+
+	[master e1e3de1] resuelto conflicto
+
+
++ **Borrar rama**
+
+Creo un tag v0.2.
+	git tag v0.2
+
+Después borro la rama v0.2.
+
