@@ -213,3 +213,46 @@ Añado como colaborador al profe: asanzdiego.
 ![Busco repositorios](https://github.com/annalawrenc/Campusciff/blob/master/screens/colaborador.jpg)
 
 ![Busco repositorios](https://github.com/annalawrenc/Campusciff/blob/master/screens/colaboradoradolfo.jpg)
+
+
+## **Ejercicio 2:**
+
++ **Crear una rama v0.2**
+
+Creo una nueva rama v0.2 pero no me posiciono en ella.
+
+	git branch v0.2
+
+Ahora me posiciono en la rama con el comando:
+	git checkout v0.2
+
+Sale una confirmación que he cambiado de rama:
+
+	Switched to branch 'v0.2'
+
+	ania@DESKTOP-S29Q99K MINGW64 /d/git/Ejercicio1-2/campusciff (v0.2)
+
++ **Añadir fichero 2.txt**
+
+Una vez posicionada en la rama v0.2 creo un fichero 2.txt.
+
+	echo "2.txt"
+
+Veo que el fichero se ha creado en rama v0.2.
+
+	2.txt
+
+Lo añado a staging y hago commit en rama v0.2.
+
+	git add -A
+	git commit -m "añadir 2.txt"
+
+
+Veo que en la rama master no está el fichero 2.txt
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VarRamaMaster.jpg)
+
+En la rama master si está el fichero 2.txt
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VarV2.jpg)
+ 
