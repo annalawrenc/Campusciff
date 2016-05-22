@@ -188,3 +188,33 @@ Pongo la dirección de la web en los settings de la organización para que el vínc
 La web se ve de la siguiente forma:
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/verweb.jpg)
+
+**13. Crear pull requests**
+
+Hago fork del repositorio de Alberto, del que no soy colaboradora ni administradora.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/ForkAlberto.jpg)
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/ForkeandoAlberto.jpg)
+
+Clono el repositorio a local, hago una rama ForkAnna y modifico index.html en ella. 
+Después vuelvo a subir el repositorio a github y hago pull request.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/ForkAlbertoSubido.jpg)
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/PullRequestAlberto.jpg)
+
+
+Hago segundo fork, de repositoio de Araceli. No se llama github.io pero es el único del que no soy colaboradora ni administradora entre los que tienen repositotio con el index.html.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/forkAraceli.jpg)
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/ForkModIndexAraceli.jpg)
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerForkAraceli.jpg)
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/ForkAraceliListo.jpg)
+
+A continuación hago pull request:
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/PullRequestAraceli.jpg)
