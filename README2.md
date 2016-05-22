@@ -1,6 +1,6 @@
 ## **Ejercicio 2:**
 
-+ **Crear una rama v0.2**
+1. **Crear una rama v0.2**
 
 Creo una nueva rama v0.2 pero no me posiciono en ella.
 
@@ -15,7 +15,7 @@ Sale una confirmación que he cambiado de rama:
 
 	ania@DESKTOP-S29Q99K MINGW64 /d/git/Ejercicio1-2/campusciff (v0.2)
 
-+ **Añadir fichero 2.txt**
+2. **Añadir fichero 2.txt**
 
 Una vez posicionada en la rama v0.2 creo un fichero 2.txt.
 
@@ -41,7 +41,7 @@ En la rama V0.2 si está el fichero 2.txt
  
 
 
-+ **Crear rama remota v0.2**
+3. **Crear rama remota v0.2**
 
 Subo los cambios (inserción del fichero 2.txt) a repositorio remoto, creando rama v0.2.
 
@@ -53,7 +53,7 @@ Veo que tengo una rama nueva v0.2:
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/VerRama2GitHub.jpg)
 
 
-+ **Merge directo**
+4. **Merge directo**
 
 Me posiciono en la master
 
@@ -80,7 +80,7 @@ Veo que se han fucionado las ramas y ahora tengo el fichero 2.txt también en la 
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/MasterAfterMerge.jpg)
 
-+ **Merge con conflicto**
+5. **Merge con conflicto**
 
 Me posisiono en la rama master y pongo "Hola" en el fichero 1.txt.
 
@@ -108,7 +108,7 @@ Aparece un mesaje de conflicto:
 	Automatic merge failed; fix conflicts and then commit the result.
 
 
-+ **Listado de ramas**
+6. **Listado de ramas**
 
 Saco una lista de ramas fusionadas y sin fusionar
 
@@ -120,7 +120,7 @@ Saco una lista de ramas fusionadas y sin fusionar
 
 *La rama master habia fusionado en clase con "rama" pero ahora no está fusionada con v0.2*
 
-+ **Arreglar conflicto**
+7. **Arreglar conflicto**
 
 
 Abro el fichero 1.txt, soluciono el conflicto a mano y guardo fichero.
@@ -136,7 +136,7 @@ Aparece mensaje:
 	[master e1e3de1] resuelto conflicto
 
 
-+ **Borrar rama**
+8. **Borrar rama**
 
 Creo un tag v0.2.
 
@@ -155,17 +155,17 @@ Veo en GitHub que ya no tengo la rama v0.2.
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/RamaBorrada.jpg)
 
-+ **Lista de commits**
+9. **Lista de commits**
 
 Hago lista de commits con 
 
 	git log
 
-+ **Crear una organización**
+10. **Crear una organización**
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/OrganizacionCreada.jpg)
 
-+ **Crear equipos**
+11. **Crear equipos**
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/Equipos.jpg)
 
@@ -175,7 +175,7 @@ Invito personas a los equipos de colaboradores y administradores.
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/InvitacionesColaboradores.jpg)
 
-+ **Crear index.html**
+12. **Crear index.html**
 
 Preparo una página web y la subo a un repositorio que he creado en la organización.
 
