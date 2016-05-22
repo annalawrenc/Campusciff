@@ -392,8 +392,9 @@ Invito personas a los equipos de colaboradores y administradores.
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/InvitacionesColaboradores.jpg)
 
-+ **Crear intex.html**
++ **Crear index.html**
 
+Preparo una página web y la subo a un repositorio que he creado en la organización.
 
-
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/idex.jpg)
 
