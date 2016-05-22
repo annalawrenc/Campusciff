@@ -396,5 +396,12 @@ Invito personas a los equipos de colaboradores y administradores.
 
 Preparo una página web y la subo a un repositorio que he creado en la organización.
 
-![](https://github.com/annalawrenc/Campusciff/blob/master/screens/idex.jpg)
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/crearweb.jpg)
 
+Pongo la dirección de la web en los settings de la organización para que el vínculo aparezca en su perfil.
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/linkweb.jpg)
+
+La web se ve de la siguiente forma:
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/verweb.jpg)
