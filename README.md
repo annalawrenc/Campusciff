@@ -3,7 +3,7 @@
 ## **Ejercicio 1:**
 
 
-+ **Crear un repositorio en vuestro GitHub**
+**1. Crear un repositorio en vuestro GitHub**
 
 El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository
 ![El repositorio se crea desde la cuenta Github, eligiendo Repositories: New Repository](https://github.com/annalawrenc/Campusciff/blob/master/screens/NewRepository.jpg)
@@ -15,7 +15,7 @@ El repositorio creado se ve así:
 
 
 
-+ **Clonar repositorio en local**
+**2. Clonar repositorio en local**
 
 Ya tengo un repositorio de la clase en local, entonces creo otra carpeta para clonar y me situo en ella.
 
@@ -46,7 +46,7 @@ En la carpeta Ejercicio1-2 veo que se me ha clonado el repositorio
 
 
 
-+ **Readme**
+**3. Readme**
 
 Añado al fichero readme.md los pasos y lo añado junto con las capturas de pantalla al area de staging
 
@@ -71,7 +71,7 @@ Veo en git status que los ficheros están preparados para commit.
 
 
 
-+ **Commit inicial**
+**4. Commit inicial**
 
 Hago el commit inicial:
 
@@ -86,7 +86,7 @@ Hago el commit inicial:
  	create mode 100644 screens/RepositorioCampusciff.jpg
  	create mode 100644 screens/RepositorioClonado.jpg
 
-+ **Push inicial**
+**5. Push inicial**
 
 Subo el repositorio local a repositorio remoto con el comando git push + dirección:
 
@@ -110,7 +110,7 @@ Ahora el repositorio remoto contiene los elementos que he subido de local:
 
 ![repositorio push inicial](https://github.com/annalawrenc/Campusciff/blob/master/screens/RepositorioPushIni.jpg)
 
-+ **Ignorar archivos**
+**6. Ignorar archivos**
 
 Creo un archivo de texto privado.txt y una carpeta privada.
 	
@@ -128,7 +128,7 @@ Creo un archivo .gitignore y añado a la lista privado.txt y carpeta privada.
 A partir de ahora la carpeta privada y el archivo privado.txt van a ser ignorados por Git.
 
 
-+ **Añadir fichero 1.txt**
+**7. Añadir fichero 1.txt**
 
 Creo un fichero 1.txt y lo añado primero a staging y despues a repositorio local.
 
@@ -138,7 +138,7 @@ Creo un fichero 1.txt y lo añado primero a staging y despues a repositorio local
 
 
 
-+ **Crear el tag v0.1**
+**8. Crear el tag v0.1**
 
 Añado una etiqueta v0.1 al último commit
 
@@ -146,14 +146,14 @@ Añado una etiqueta v0.1 al último commit
 
 
 
-+ **Subir el tag v0.1**
+**9. Subir el tag v0.1**
 
 Subo los cambios a repositorio remoto:
 
 	git push git@github.com:annalawrenc/Campusciff.git
 
 
-+ **Cuenta GitHub**
+**10. Cuenta GitHub**
 
 + Subo una foto
 
@@ -179,7 +179,7 @@ Ya tengo clave pública:
 
 ![Key](https://github.com/annalawrenc/Campusciff/blob/master/screens/publickey.jpg)
 
-+ **Uso social de GitHub** 
+**11. Uso social de GitHub** 
 
 
 + sigo a mis compañeros.
@@ -196,7 +196,7 @@ Ya tengo clave pública:
 ![Busco repositorios](https://github.com/annalawrenc/Campusciff/blob/master/screens/searchreposit.jpg)
 
 
-+ **Compañeros de mi clase**
+**12. Compañeros de mi clase**
 
 
 |NOMBRE|GITHUB                             |
@@ -206,7 +206,7 @@ Ya tengo clave pública:
 |Mark  |<https://github.com/Mark-Wellings> |
 
 
-+ **Nuevo Colaborador**
+**13. Nuevo Colaborador**
 
 Añado como colaborador al profe: asanzdiego.
 

@@ -120,7 +120,7 @@ Saco una lista de ramas fusionadas y sin fusionar
 
 *La rama master habia fusionado en clase con "rama" pero ahora no está fusionada con v0.2*
 
-7. **Arreglar conflicto**
+**7. Arreglar conflicto**
 
 
 Abro el fichero 1.txt, soluciono el conflicto a mano y guardo fichero.
@@ -165,7 +165,7 @@ Hago lista de commits con
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/OrganizacionCreada.jpg)
 
-11. **Crear equipos**
+**11. Crear equipos**
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/Equipos.jpg)
 
