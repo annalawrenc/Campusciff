@@ -218,3 +218,13 @@ Hago segundo fork, de repositoio de Araceli. No se llama github.io pero es el ún
 A continuación hago pull request:
 
 ![](https://github.com/annalawrenc/Campusciff/blob/master/screens/PullRequestAraceli.jpg)
+
+**13. Aceptar pull requests**
+
+Acepto pull request de Asier:
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/pullrequestasier.jpg)
+
+![](https://github.com/annalawrenc/Campusciff/blob/master/screens/pullrequestasiermerged.jpg)
+
+Solo acepto un pull request porque no me han llegado más pul requests.
